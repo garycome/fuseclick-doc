@@ -1,4 +1,4 @@
-# Unique Click ID 
+# Unique Click
 
 广告点击数据中，经常会有重复点击。导致点击重复的原因有很多：
 * 用户多次点击；
