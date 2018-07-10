@@ -2,31 +2,32 @@
 
 广告点击数据中，经常会有重复点击。导致点击重复的原因有很多：
 * 用户多次点击；
-* 广告链条的某个中间环节系统重复转发点击数据；
+* 广告跳转过程中的某个中转系统重复转发点击数据;
 * 某些作弊软件制造虚假点击以获取收益。
 
 
-一般地，将来自于固定时间段内、来自一个独立IP的点击， 算作一次 Unique Click。
+一般在固定时间段内将来自于一个独立 IP 的点击， 算作一次 Unique Click。
 
 # 自定义 Unique ID 计算规则
 在 FuseClick 平台，参与 Unique ID 计算的参数，除了IP，还可以选择以下参数：
 * Offer
 * Affiliate
-* 子渠道 sub-affiliate
+* 子渠道 Sub Affiliate ID （即sub_affid）
 * User Agent
 * Device ID
-* Sub ID 1
-* Sub ID 2
-* Sub ID 3
-* Sub ID 4
-* Sub ID 5
+* Affiliate Sub ID 1（即s1）
+* Affiliate Sub ID 2（即s2）
+* Affiliate Sub ID 3（即s3）
+* Affiliate Sub ID 4（即s4）
+* Affiliate Sub ID 5（即s5）
 * Traffic Source
 
-例如，如果选了 Offer、Device ID，则一台设备一天之内到某个特定 Offer 上的点击，只计算一次 Unique ID，表现在数据上，这些点击都具有相同的 Unique ID。
-这样，对比 Gross Click 数量和 Unique Click 数量，就可以推断出特定来源的 Click 质量。
+例如：参数选择 Offer、Device ID，则表示一台设备一天之内到某个 Offer 上的点击，只计做一个 Unique ID。
+以上条件出现重复点击，在查看数据时，这些点击的 Unique ID均相同。 
+针对同一渠道，对比其Unique Click及Gross Click的数量，就可推断出其Click的质量。
 
 ## 默认 Unique ID 规则
-在系统 Setting 里设置的，属于全局设置，新建 Offer 均默认使用该规则
+在系统 Setting 里设置的 Unique ID 规则，属于全局设置，新建 Offer 均默认使用该规则。
 
 ## Offer Unique ID 规则
 可以按照 Offer 类型、或者广告主要求，为 Offer 设置特定的 Unique ID规则。
