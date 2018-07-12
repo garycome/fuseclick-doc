@@ -1,16 +1,16 @@
 # 参数过滤规则
 ## 功能
-关于渠道对 Offer 的访问控制，可以通过多种方式来设置。
+系统提供多种方式进行渠道对Offer的访问权限的控制。
 例如为广告主或offer，设置渠道黑名单、白名单，或者利用 Smart Limitation 功能按效果自动控制Campaign状态等。
 
-但实际情况往往是这样的，渠道的某些子渠道流量质量高、另一些子渠道流量质量低， 而广告主都期望流量质量越高越好，这就需要一个比渠道更细粒度的访问控制机制。
-Blocked Parameters 功能就是为了这个目的而研发的，该功能可以按照流量的某些参数值，进行过滤屏蔽。
+但是，实际运营中的情况确是如下类型：渠道的某些子渠道的质量高低不一致，广告主希望流量质量越高越好。
+这就需要一个更细粒度的条件对子渠道质量进行管控。 Blocked Parameters功能即可满足，该功能从子渠道的流量参数值考虑，对其进行质量管控。
 
 ![BlockParameters](./image/BlockParameters.jpg)
 
 
 ## 设置
-系统中可以为不同的 Campaign 或者 Offer， 分别 Blocked Parameters 规则。
+针对不同Offer或者Campaign分别设置Blocked Parameters规则。
 可选参数范围：
 * 子渠道 Sub Affiliate ID
 * Affiliate Sub ID 1（即s1）
@@ -19,16 +19,16 @@ Blocked Parameters 功能就是为了这个目的而研发的，该功能可以�
 * Affiliate Sub ID 4（即s4）
 * Affiliate Sub ID 5（即s5）
 
-选中参数后，可以指定一个参数值列表。只要流量的参数在列表之内，就会被拒绝。
+选择参数并给出其对应的参数值，若进入系统的流量中携带有该参数，且值与设置的参数值之一相同，则该流量会被拒绝。
 
-除了上述指定值的参数，还可以为设置另外一种规则，即如果流量没有携带 Device ID 参数，也会被拒绝。
+除上述6种参数外，系统还提供一个 Device ID 规则，即流量进入系统时携带的Device ID为空值，也会被拒绝。
 
-## 屏蔽子渠道样例
-通过分析，发现某渠道的一些子渠道流量转化不好，可以设置选择 Sub Affiliate ID 参数，将这些子渠道ID或名称，添加到列表中。
-后续只要这些子渠道的流量，就会被拒绝。
+## 样例：屏蔽子渠道
+渠道通过Sub Affiliate ID传递其子渠道值，当该渠道发现他的某些子渠道的流量质量过低或者较差，可以通过Blocked Parameters功能进行过滤。
+即在 Blocked Parameters 中添加上 Sub Affiliate ID 并配上想要屏蔽的子渠道ID或者名称，后续该子渠道的流量就会被拒绝。
 
-## 广告主系统要求有 Device ID 的样例
-如果某个 Offer 要求所有流量必须带有设备ID，我们可以设置一个 Blocked Parameters 规则，设置屏蔽 Device ID 为空的流量即可。
+## 样例：屏蔽Device ID为空的流量
+如果某个 Offer 要求所有流量必须带有设备ID，可以在Blocked Parameters 中设置Device ID且值为空，则代表Device ID 为空的流量将会被屏蔽。
 
 通过上述规则，可以提高到达广告主系统的流量质量。
 
