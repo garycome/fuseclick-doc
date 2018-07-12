@@ -15,6 +15,7 @@ Blocked Parameters 功能就是为了这个目的而研发的，该功能可以�
 * Affiliate Sub ID 3（即s3）
 * Affiliate Sub ID 4（即s4）
 * Affiliate Sub ID 5（即s5）
+
 选中参数后，可以指定一个参数值列表。只要流量的参数在列表之内，就会被拒绝。
 
 除了上述指定值的参数，还可以为设置另外一种规则，即如果流量没有携带 Device ID 参数，也会被拒绝。
