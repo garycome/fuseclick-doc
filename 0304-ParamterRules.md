@@ -6,6 +6,9 @@
 但实际情况往往是这样的，渠道的某些子渠道流量质量高、另一些子渠道流量质量低， 而广告主都期望流量质量越高越好，这就需要一个比渠道更细粒度的访问控制机制。
 Blocked Parameters 功能就是为了这个目的而研发的，该功能可以按照流量的某些参数值，进行过滤屏蔽。
 
+![BlockParameters](./image/BlockParameters.jpg)
+
+
 ## 设置
 系统中可以为不同的 Campaign 或者 Offer， 分别 Blocked Parameters 规则。
 可选参数范围：
