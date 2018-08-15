@@ -6,7 +6,7 @@
 但是，实际运营中的情况确是如下类型：渠道的某些子渠道的质量高低不一致，广告主希望流量质量越高越好。
 这就需要一个更细粒度的条件对子渠道质量进行管控。 Blocked Parameters功能即可满足，该功能从子渠道的流量参数值考虑，对其进行质量管控。
 
-![BlockParameters](./image/BlockParameters.jpg)
+![BlockParameters](../image/BlockParameters_2.png)
 
 
 ## 设置
