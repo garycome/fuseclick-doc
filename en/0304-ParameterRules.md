@@ -1,10 +1,10 @@
 
 # Parameter Targeting
-For affiliate who aggregates multiple traffic sources, the quality of each traffic source varies greatly. If we block affiliate because of some unwanted traffic sources, the high-quality traffic will be blocked too. So we need access control for traffic sources.
+For affiliate who aggregates multiple traffic sources, the quality of each traffic source varies greatly. If we block affiliate because of some unwanted traffic sources, the other high-quality traffic will be blocked too. So we need access control for traffic sources.
 
-The Parameters Targeting Feature satisfies this requirement. 
+Fortunately FuseClick has Parameter Targeting feature.
 
-We can use a Sub-Affiliate parameter to identify those difference traffic sources from one affiliate, then analyze the Sub-Affiliate traffic performance in our real-time Analyst Report, and set up rules in the Parameters Targetting feature to block those Sub-Affiliates with poor performance.
+You can use a Sub-Affiliate parameter to identify those difference traffic sources from one affiliate. So that you can analyze traffic performance from each Sub-Affiliate in our real-time Analyst Report, and then set up rules in the Parameters Targetting feature to block those Sub-Affiliates with poor performance. 
 ![ParameterTargeting](../image/BlockParameters_2.png)
 
 In addition to the Sub-Affiliate parameters, we can set up rules for other parameters, such as Sub-ID1, Sub-ID2, Sub-ID3, Sub-ID4, and Sub-ID5, which can be used to identify other properties of the traffic, such as age, interest, etc.
