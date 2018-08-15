@@ -1,6 +1,5 @@
 
 # Parameter Targeting
-## Requirement
 For affiliate who aggregates multiple traffic sources, the quality of each traffic source varies greatly. If we block affiliate because of some unwanted traffic sources, the high-quality traffic will be blocked too. So we need access control for traffic sources.
 
 The Parameters Targeting Feature satisfies this requirement. 
