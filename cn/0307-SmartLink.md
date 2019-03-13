@@ -1,6 +1,7 @@
 # Smart Link
 将offer编组，使用一个针对组的投放链接，系统自动将click引导到最优的offer。
 为了完成这个过程，FuseClick研发了一整套完备的功能，包含Smart Offer Group, Auto-Recruiter, Auto-Remover, Smart Testing 等。
+![SmartLink](../image/SmartLink.jpg)
 
 ## Smart Group
 Smart Group包含多个offer，根据广告主、offer类别、流量国家、运营商等属性选择offer加入组内。
