@@ -15,6 +15,7 @@ The system provides three lists of offers for each Smart Group:
 * Available Offer List, 
 * Selected Offer List, 
 * Removed Offer List. 
+
 You can customize offers in the lists or remove the offers from the Smart Group.
 
 ## Auto-Recruit

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1610dd45-4619-4437-8c64-ab02fcb105f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cn/0307-SmartLink.md" afterPath="$PROJECT_DIR$/cn/0307-SmartLink.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/0307-SmartLink.md" afterPath="$PROJECT_DIR$/en/0307-SmartLink.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="0307-SmartLink.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="0307-SmartLink.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cn/0307-SmartLink.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="72">
+              <first_editor relative-caret-position="-50">
                 <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -28,12 +27,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0307-SmartLink.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="0307-SmartLink.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en/0307-SmartLink.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="72">
-                <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
+              <first_editor relative-caret-position="306">
+                <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -60,8 +59,8 @@
         <option value="$PROJECT_DIR$/0306-CTIT-Window.md" />
         <option value="$PROJECT_DIR$/0304-ParamterRules.md" />
         <option value="$PROJECT_DIR$/en/0304-ParameterRules.md" />
-        <option value="$PROJECT_DIR$/en/0307-SmartLink.md" />
         <option value="$PROJECT_DIR$/cn/0307-SmartLink.md" />
+        <option value="$PROJECT_DIR$/en/0307-SmartLink.md" />
       </list>
     </option>
   </component>
@@ -640,22 +639,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en/0307-SmartLink.md">
+    <entry file="file://$PROJECT_DIR$/cn/0307-SmartLink.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
+          <first_editor relative-caret-position="-50">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cn/0307-SmartLink.md">
+    <entry file="file://$PROJECT_DIR$/en/0307-SmartLink.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="72">
-            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <first_editor relative-caret-position="306">
+            <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
