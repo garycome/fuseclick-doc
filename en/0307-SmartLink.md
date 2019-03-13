@@ -12,9 +12,9 @@ Smart group creation is the first step in the process.
 You can add offers to the smart group by filters, such as advertisers, categories, countries, OS, and carriers.
 
 The system provides three lists of offers for each Smart Group: 
-* Available Offer List, 
-* Selected Offer List, 
-* Removed Offer List. 
+* Available Offer List
+* Selected Offer List 
+* Removed Offer List 
 
 You can customize offers in the lists or remove the offers from the Smart Group.
 
