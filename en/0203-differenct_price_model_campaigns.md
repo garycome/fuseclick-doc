@@ -15,4 +15,4 @@ In FuseClick, you can set CPI campaigns and CPM campaigns for one same offer. an
 
 The system aggregates all the cost under the offer automatically, so you can get the profit of the offer at a glance. 
 
-Similarly, you can set CPC cam*__*paigns to calculate costs when a click occurs.
+Similarly, you can set CPC campaigns to calculate costs when a click occurs.
