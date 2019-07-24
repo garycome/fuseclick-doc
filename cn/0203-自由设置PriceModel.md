@@ -6,7 +6,7 @@
 
 使用FuseClick，可以自动运营、管理上述场景。
 
-在系统内，设置单子的Revenue Type为CPI，表示从广告主按CPI方式获得收益；将单子分发给渠道，设置Payout Type为CPI，流出公司利润差额，设定价格；将单子推送给Media Buyer，设置Payout Type为CPM，设定价格为买量的CPM价格。
+在系统内，设置单子的Revenue Type为CPI，表示从广告主按CPI方式获得收益；将单子分发给渠道，设置Payout Type为CPI，留出公司利润差额，设定价格；将单子推送给Media Buyer，设置Payout Type为CPM，设定价格为买量的CPM价格。
 
 ![MultiplePriceModel](../image/fuseclick_mutliple_price_model.png)
 
