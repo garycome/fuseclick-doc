@@ -1,18 +1,19 @@
-# How to manage campaigns with different price models for one offer？
+# How to manage campaigns with different price models for one Offer？
 
-When you have affiliates to promote a CPI offer ,  the media-buyer team also post the offer to some DSP platforms using CPM price model.
+Imagine that affiliates are promoting a CPI Offer for your network, and your media-buyer team is posting the Offer to DSP platforms in CPM price model in the meantime. How to track the traffic in such ONE Offer?
 
-These two different promotion ways use different method to calculate cost. 
-For the CPI price model, you will pay to affiliates for installations or conversions, for the CPM price model, the media buyer team will pay to DSP platforms for impressions. 
+These two different promotion channels use different models to calculate cost. For CPI price model, you will pay to affiliates for installations or conversions; for the CPM price model, the media buyer team will pay to DSP platforms for impressions. How to do the billing in such ONE Offer?
 
-You may need collect data from different systems, and summize for the total cost of the offer.
+Usually finance needs to collect data from different systems and then summarize for total cost of the Offer.
 
-The FuseClick system provides you convenience by automation of these tasks.
 
-In FuseClick, you can set CPI campaigns and CPM campaigns for one same offer. and the system will calculate cost of installations(conversions) for CPI campaigns,  and cost of impression for CPM campaigns.
+FuseClick provides you convenience by automation of these tasks.
+
+In FuseClick, you can set CPI campaigns and CPM campaigns for one same Offer. FuseClick Campaign system will calculate both cost of installations/conversions for CPI campaigns and cost of impression for CPM campaigns.
+
 
 ![MultiplePriceModel](../image/fuseclick_mutliple_price_model.png)
 
-The system aggregates all the cost under the offer automatically, so you can get the profit of the offer at a glance. 
+FuseClick Tracking system aggregates all of cost under the Offer automatically, so you can get the profit of the Offer at a glance. 
 
-Similarly, you can set CPC campaigns to calculate costs when a click occurs.
+Similarly, you can set CPC campaigns to calculate costs when a click occurs. Everything work smartly in FuseClick.
