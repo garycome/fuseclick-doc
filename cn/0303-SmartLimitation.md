@@ -19,8 +19,9 @@ FuseClick 的 Smart Limitation 功能，可以自动完成筛选、过滤、优�
 
 # 实现 Daily Click CAP
 系统有 Budget CAP 和 Conversion CAP，设定支付给渠道的成本上限和转化数量限制，CAP 的时间范围可以是 Daily、Weekly、Monthly或者 Overall。  
+  
 |CAP对象|Daily|Weekly|Monthly|Overall|    
-|:-:|:-:|:-:|:-:|:-:|  
+| --- | --- | --- | --- | --- |  
 |Budget|Y|Y|Y|Y|    
 |Conversion|Y|Y|Y|Y|    
 |Click|Y|Y|Y|Y|  
