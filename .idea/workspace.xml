@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1610dd45-4619-4437-8c64-ab02fcb105f4" name="Default" comment="" />
+    <list default="true" id="1610dd45-4619-4437-8c64-ab02fcb105f4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cn/0303-SmartLimitation.md" afterPath="$PROJECT_DIR$/cn/0303-SmartLimitation.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/cn/0303-SmartLimitation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="504">
-                <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <first_editor relative-caret-position="609">
+                <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -1012,8 +1014,8 @@
     <entry file="file://$PROJECT_DIR$/cn/0303-SmartLimitation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="504">
-            <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <first_editor relative-caret-position="609">
+            <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
