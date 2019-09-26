@@ -17,7 +17,7 @@ FuseClick 的 Smart Limitation 功能，可以自动完成筛选、过滤、优�
 图中示例规则，对 #79 渠道的Campaign，如果某个子渠道的点击数超过20万而CR低于0.02%，系统自动屏蔽该Campaign下的该子渠道的流量，而其他子渠道流量正常。  
 经过一段时间的优化，已知某些子渠道流量收益好，可以利用Parameter Rule功能，开启**子渠道白名单**，系统只接受这些子渠道的流量，其他的会自动屏蔽。
 
-# 实现 Daily Click CAP
+# 实现 Click CAP
 系统基准功能中，包含有 Offer 和 Campaign 的 Budget CAP 和 Conversion CAP，用来设定支付给渠道的成本上限和转化数量限制。除了按照总量限制外，也还可以按照天/周/月等区间限制。  
 利用Smart Limitation规则，运营可以对 Click 也进行 CAP 限制，只需在规则中，不设置 Conversion 或 CR 条件，仅设置 Click CAP 数量即可。这样，可以限制系统接收某个 Campaign、或某个子渠道的 Daily Click 数量或总数。   
 
