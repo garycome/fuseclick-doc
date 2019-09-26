@@ -21,7 +21,8 @@ FuseClick 的 Smart Limitation 功能，可以自动完成筛选、过滤、优�
 系统基准功能中，包含有 Offer 和 Campaign 的 Budget CAP 和 Conversion CAP，用来设定支付给渠道的成本上限和转化数量限制。  
 除了按照总量限制外，也还可以按照天/周/月等区间限制。  
 利用Smart Limitation规则，运营可以对 Click 也进行 CAP 限制，只需在规则中，不设置 Conversion 或 CR 条件，仅设置 Click CAP 数量即可。  
-这样，可以限制系统接收某个 Campaign、或某个子渠道的 Daily Click 数量或总数。
+这样，可以限制系统接收某个 Campaign、或某个子渠道的 Daily Click 数量或总数。   
+
 |CAP对象|Daily|Weekly|Monthly|Overall|    
 | --- | --- | --- | --- | --- |  
 |Budget|Y|Y|Y|Y|    
