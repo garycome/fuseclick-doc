@@ -21,4 +21,4 @@ The other feature "Parameter Targeting" in FuseClick can be used to set the whit
 Besides these CAP features for Budget and Conversions, the Smart Limitation feature can be used for CAP of Clicks. 
 If you only set the threshold for click and no threshold for conversions or CR,  then the rule is a Click CAP Rule. The system will limit the number of daily clicks or total clicks for campaigns or sub-affiliates.
 
-The system analyzes performance and takes action according the Smart Limitation rules automatically and continuously. The operations team simply checks the rule action log and changes the rules as needed.
+The system analyzes performance and takes action according to the Smart Limitation rules automatically and continuously. The operations team checks the rule action log and changes the rules as needed easily.
