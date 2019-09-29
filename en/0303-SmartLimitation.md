@@ -1,4 +1,4 @@
-#Smart Limitation
+# Smart Limitation
 The marketing company’s operations team is responsible for integrating with partners and improving the performance of their campaigns. They need to analyze the data online and take action as quickly as possible to promote ROI.    
 FuseClick's Smart Limitation feature exactly meets the requirements of automation for the operation teams, which can analyst the data of offers, campaigns, affiliates and even the sub affiliates, then block those with poor performance automatically, and it also can be used for click CAPs. 
 
