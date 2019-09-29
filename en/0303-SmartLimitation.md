@@ -4,15 +4,15 @@ FuseClick's Smart Limitation feature exactly meets the requirements of automatio
 
 ## Choosing Entities
 You can set multiple rules in the Smart Limitation feature. Each rule represent a turning strategy for one or many offers and affiliates.  
-If there are only offers selected and no affiliates, the rule will apply to all campaigns that belong to these offers. Similarly, only selecting affiliates menas  the rule will apply to all campaigns of these affiliates.
+If there are only offers selected and no affiliates, the rule will apply to all campaigns that belong to these offers. Similarly, only selecting affiliates means the rule will apply to all campaigns of the affiliates.
 
-## Automation for Campaigns Performance Turning 
-Two thresholds can be set in a rule, one for clicks and the other for conversions or CR. In a certain peroid(daily/weekly/two weeks/overall), when the traffic exceeds the click theshold, and the conversions(CR) is still less than the other threshold, then the campaign will be paused.  
-Setting the first threshold for clicks will ensure that the sample size is statistically significant enough to avoid accidentally pausing the campaign.
+## Automation for Campaigns Performance Tuning 
+Two thresholds can be set in one rule, one is for clicks and the another one is for conversions or CR. In a certain peroid(daily/weekly/two weeks/overall), once the traffic exceeds the click theshold and the conversions(CR) is still less(lower) than the other threshold, then the campaign will be paused.  
+Keeping one appropriate threshold for clicks will ensure that the samples is enough to avoid accidentally pausing the campaign.
 
-## Automation for Sub-Affiliates Performance Turning
-For those affiliates who have many sub-affiliates, pausing their campaign means blocking all traffic for all sub-affiliates. However, this is not the most profitable way for turning ROI.   
-We need to analyze the performance of each sub-affiliate and then only block those sub-affiliates with poor performance. The operations team only needs to set the rule action as a sub-affiliate, which is "Blocking Sub-Affiliate form the Campaign". The system will do all the analysts and blocking works automatically.
+## Automation for Sub-Affiliates Performance Tuning
+For those affiliates who have many sub-affiliates, pausing their campaign means blocking all traffic for all sub-affiliates. However, this is not a profitable way for tuning ROI.   
+We need to analyze the performance of each sub-affiliate and then only block those sub-affiliates with poor performance. The operation team only needs to set the rule action to a sub-affiliate, which is "Blocking Sub-Affiliate from the Campaign". The system will do all the analyst and blocking work automatically.
 ![smart_limitation_sub_affiliate_rule](../image/smart_limitation_sub_affiliate_rule.png)
 
 The other feature "Parameter Targeting" in FuseClick can be used to set the whitelist of sub-affiliate, which means only the traffic from the whitelisted sub-affiliates can be accepted.
